@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-lex-models-v2`](https://www.npmjs.com/package/@aws-sdk/client-lex-models-v2/v/3.67.0).
+[`@aws-sdk/client-lex-models-v2`](https://www.npmjs.com/package/@aws-sdk/client-lex-models-v2/v/3.72.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-models-v2@3.67.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-models-v2@3.72.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-iXUiiLOmKvbXnIQyC6i9Q7u1KboDgC2JdYRqFj8LEJkgJU815z2DuxeVlkIIdSJ0
+sha384-zCcXbrIVIkt/Jxoix3Te7HFLkAYDozy6F2ocP3fusa+aU9uAx9fQGCziCxrWbV+t
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-lex-models-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-models-v2@3.67.0/index.min.mjs"
+            "@aws-sdk/client-lex-models-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-models-v2@3.72.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-models-v2@3.67.0/index.min.mjs": "sha384-iXUiiLOmKvbXnIQyC6i9Q7u1KboDgC2JdYRqFj8LEJkgJU815z2DuxeVlkIIdSJ0"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-models-v2@3.72.0/index.min.mjs": "sha384-zCcXbrIVIkt/Jxoix3Te7HFLkAYDozy6F2ocP3fusa+aU9uAx9fQGCziCxrWbV+t"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-lex-models-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-models-v2@3.67.0/index.min.mjs"
+                        "@aws-sdk/client-lex-models-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-models-v2@3.72.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-models-v2@3.67.0/index.min.mjs": "sha384-iXUiiLOmKvbXnIQyC6i9Q7u1KboDgC2JdYRqFj8LEJkgJU815z2DuxeVlkIIdSJ0"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-models-v2@3.72.0/index.min.mjs": "sha384-zCcXbrIVIkt/Jxoix3Te7HFLkAYDozy6F2ocP3fusa+aU9uAx9fQGCziCxrWbV+t"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.67.0`)
+* Always pin to a specific version (`@3.72.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-lex-models-v2/blob/refs/tags/3.67.0/LICENSE
+https://github.com/cloud-sdk-builds/client-lex-models-v2/blob/refs/tags/3.72.0/LICENSE
 ```
 
 ---
