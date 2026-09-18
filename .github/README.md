@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-lex-models-v2`](https://www.npmjs.com/package/@aws-sdk/client-lex-models-v2/v/3.1134.0).
+[`@aws-sdk/client-lex-models-v2`](https://www.npmjs.com/package/@aws-sdk/client-lex-models-v2/v/3.1135.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-lex-models-v2 - [https://cloud-sdk-builds.github.io/?sdk=client-lex-models-v2](https://cloud-sdk-builds.github.io/?sdk=client-lex-models-v2)
-- @aws-sdk/client-lex-models-v2 v3.1134.0 - [https://cloud-sdk-builds.github.io/?sdk=client-lex-models-v2&version=3.1134.0](https://cloud-sdk-builds.github.io/?sdk=client-lex-models-v2&version=3.1134.0)
+- @aws-sdk/client-lex-models-v2 v3.1135.0 - [https://cloud-sdk-builds.github.io/?sdk=client-lex-models-v2&version=3.1135.0](https://cloud-sdk-builds.github.io/?sdk=client-lex-models-v2&version=3.1135.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-models-v2@3.1134.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-models-v2@3.1135.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-qTG7OHQEKHR3Yw0ZVxO1+YhpnYn2Vm02UZ1TGfRu4iNZEIT1Bt7gGWu8Bka1XpYj
+sha384-84/J1ltItEIL+KAqdp3TXq1VZaZt1fFyJkidTxAp7G2rKMiB82JIG4ZeZ3ZTa06A
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-lex-models-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-models-v2@3.1134.0/index.min.mjs"
+            "@aws-sdk/client-lex-models-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-models-v2@3.1135.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-models-v2@3.1134.0/index.min.mjs": "sha384-qTG7OHQEKHR3Yw0ZVxO1+YhpnYn2Vm02UZ1TGfRu4iNZEIT1Bt7gGWu8Bka1XpYj"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-models-v2@3.1135.0/index.min.mjs": "sha384-84/J1ltItEIL+KAqdp3TXq1VZaZt1fFyJkidTxAp7G2rKMiB82JIG4ZeZ3ZTa06A"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-lex-models-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-models-v2@3.1134.0/index.min.mjs"
+                        "@aws-sdk/client-lex-models-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-models-v2@3.1135.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-models-v2@3.1134.0/index.min.mjs": "sha384-qTG7OHQEKHR3Yw0ZVxO1+YhpnYn2Vm02UZ1TGfRu4iNZEIT1Bt7gGWu8Bka1XpYj"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lex-models-v2@3.1135.0/index.min.mjs": "sha384-84/J1ltItEIL+KAqdp3TXq1VZaZt1fFyJkidTxAp7G2rKMiB82JIG4ZeZ3ZTa06A"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1134.0`)
+* Always pin to a specific version (`@3.1135.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-lex-models-v2/blob/refs/tags/3.1134.0/LICENSE
+https://github.com/cloud-sdk-builds/client-lex-models-v2/blob/refs/tags/3.1135.0/LICENSE
 ```
 
 ---
